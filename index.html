@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Homework15</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  </head>
+  <body>
+    <div class="my-carousel">
+      <div class="card">
+        <div class="img">
+          <img src="images/pic1.jpg" alt="image">
+          <div class="hover-box">
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="title">
+          <h3>Gloria Bromley</h3>
+          <p>CEO and Founder</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="images/pic2.jpg" alt="image">
+          <div class="hover-box">
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="title">
+          <h3>Paul Torres</h3>
+          <p>Head of Development</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="images/pic3.jpg" alt="image">
+          <div class="hover-box">
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="title">
+          <h3>Judith Gillette</h3>
+          <p>Graphic Desinger</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="images/pic4.jpg" alt="image">
+          <div class="hover-box">
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="title">
+          <h3>Delores Reed</h3>
+          <p>Client Service Director</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="images/pic1.jpg" alt="image">
+          <div class="hover-box">
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="title">
+          <h3>Gloria Bromley</h3>
+          <p>CEO and Founder</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="images/pic2.jpg" alt="image">
+          <div class="hover-box">
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="title">
+          <h3>Paul Torres</h3>
+          <p>Head of Development</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="images/pic3.jpg" alt="image">
+          <div class="hover-box">
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="title">
+          <h3>Judith Gillette</h3>
+          <p>Graphic Desinger</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="images/pic4.jpg" alt="image">
+          <div class="hover-box">
+            <ul>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="title">
+          <h3>Delores Reed</h3>
+          <p>Client Service Director</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $('.my-carousel').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        nextArrow: '<i class="right" aria-hidden="true"></i>',
+        prevArrow: '<i class="left" aria-hidden="true"></i>',
+        responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              dots: false,
+              arrows: true,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true,
+              arrows: false,
+              dotsClass: "slick-dots",
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+              arrows: false,
+              dotsClass: "slick-dots",
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
+</html>
